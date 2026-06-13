@@ -1,0 +1,5 @@
+
+[bandit]
+exlude = tests.venv
+recursive = true
+skips =`

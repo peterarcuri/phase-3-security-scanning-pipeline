@@ -1,0 +1,5 @@
+
+bandit[sarif]
+pytest
+requests
+pyyaml
