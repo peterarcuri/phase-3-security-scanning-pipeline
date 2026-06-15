@@ -29,3 +29,5 @@ headers:
     - "X-Content-Type-Options"
 
 
+report:
+  output_file: "reports/dast-results.json"
