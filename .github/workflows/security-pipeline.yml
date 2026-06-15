@@ -83,8 +83,8 @@ jobs:
 
       - name: Run DAST OWASP smoke tests
         run: |
-          python src/main.py
-          echo "DAST smoke tests completed successfully" > reports/dast-results.txt
+          PYTHONPATH=. python -m src.main
+          echo "DAST smoke tests completed successfully" > reports/dast-results.txt    
 
       - name: Upload security report artifacts
         if: always()
